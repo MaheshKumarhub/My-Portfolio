@@ -13,7 +13,7 @@ const Home = () => {
         <div className="flex flex-col-reverse lg:flex-row items-center lg:gap-24">
           <div className="max-w-md md:max-w-lg text-center lg:text-start">
             <h1 className="font-bold text-zinc-700 select-none  text-4xl  md:text-6xl my-5">
-              Front-End React
+              MERN Stack
               <blockquote className="flex justify-center lg:justify-normal items-center gap-1">
                 Developer
                 <img
@@ -24,7 +24,7 @@ const Home = () => {
               </blockquote>
             </h1>
             <p className="text-lg text-gray-700">
-              Hi, I'm Mahesh Kumar. A passionate Front-end React Developer
+              Hi, I'm Mahesh Kumar. A passionate MERN-Stack Developer
               based in Tamilnadu, India📍
             </p>
             <div className="flex justify-center lg:justify-normal gap-14 mt-9">

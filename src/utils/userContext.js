@@ -2,7 +2,7 @@ import { createContext } from "react";
 
 const userContext = createContext({
   name: "Mahesh Kumar",
-  role: "Front-End Web Developer",
+  role: "MERN-Stack Developer",
   location: "Tamilnadu, India",
   mail: "mahesh199979@gmail.com",
   gitHubProfile: "https://github.com/MaheshKumarhub",

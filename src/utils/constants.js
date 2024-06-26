@@ -1,36 +1,48 @@
-import html5 from "../images/stacks/html5.png";
-import css3 from "../images/stacks/css3.png";
 import javascript from "../images/stacks/javascript.png";
 import react from "../images/stacks/react.png";
 import tailwindcss from "../images/stacks/tailwindcss.png";
-import sql from "../images/stacks/sql.png";
+import mongo from "../images/stacks/mongo.png";
+import express from "../images/stacks/express.png";
+import node from "../images/stacks/node.png";
+import firebase from "../images/stacks/firebase.png"
+import bootstrap from "../images/stacks/bootstrap.png"
+
 
 export const TECH_STACK_LOGOS = [
-  {
-    name: "HTML",
-    logo: html5,
-  },
-  {
-    name: "CSS3",
-    logo: css3,
-  },
+  
   {
     name: "Javascript",
     logo: javascript,
+  },
+  {
+    name: "Mongo",
+    logo: mongo,
+  },
+  {
+    name: "Express",
+    logo: express,
   },
   {
     name: "React",
     logo: react,
   },
   {
-    name: "SQL",
-    logo: sql,
+    name: "Node",
+    logo: node,
+  },
+  {
+    name: "Firebase",
+    logo: firebase,
   },
   {
     name: "Tailwind CSS",
     logo: tailwindcss,
   },
+  {
+    name: "Bootstrap",
+    logo: bootstrap,
+  },
 ];
 
 export const RESUME_LINK =
-  "https://drive.google.com/file/d/1SuBhvH7Icl4yskf_4891Ql0YRRmJKAhh/view?usp=drive_link";
+  "https://drive.google.com/file/d/1wgQ0FUHT3buHfqgRkldXernXUTQR-yAs/view?usp=drive_link";

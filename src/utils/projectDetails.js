@@ -1,13 +1,14 @@
 import nike from "../images/projects/Nike.png";
-import nostra from "../images/projects/Nostra.png";
-import todo from "../images/projects/To-Do.png";
+import passop from "../images/projects/passop.png"
+import gym from "../images/projects/GYM.png"
 import vidtube from "../images/projects/VidTube.png";
 import shopper from "../images/projects/Shopper.png";
 import { AiFillYoutube } from "react-icons/ai";
 import { FaOpencart } from "react-icons/fa";
 import { GiRunningShoe } from "react-icons/gi";
-import { GiLargeDress } from "react-icons/gi";
-import { RiTodoFill } from "react-icons/ri";
+import { CgGym } from "react-icons/cg";
+import { RiLockPasswordFill } from "react-icons/ri";
+
 
 export const stacks = ["React", "Tailwind CSS", "Vercel","HTML", "CSS", "JavaScript"];
 
@@ -16,16 +17,38 @@ export const projects = [
     title: "SHOPPER",
     id: 1,
     image: shopper,
-    techStack: ["React", "Tailwind CSS", "Vercel" ],
+    techStack: ["React", "Tailwind CSS", "FireBase" ],
     brand: FaOpencart,
     overView:
-      " A sleek, modern e-commerce platform built with React and Tailwind CSS, offering a seamless shopping experience for men, women, and children's fashion with a login page. Leveraging intuitive design and robust functionality.",
+      " A sleek, modern e-commerce platform built with React, Tailwind CSS, and Firebase for login functionality, offering a seamless shopping experience for men, women, and children's fashion. The platform leverages intuitive design and robust functionality to enhance the user experience.",
     webUrl: "https://shoper-dun.vercel.app/",
     gitHubCode: "https://github.com/MaheshKumarhub/Shoper",
   },
   {
-    title: "VIDTUBE",
+    title: "PassOP",
     id: 2,
+    image: passop,
+    techStack: ["MongoDB","Express", "React", "Node" ],
+    brand: RiLockPasswordFill,
+    overView:
+      " PassOp is a secure and efficient application designed to store website links, usernames, and passwords. Built with a robust tech stack including React.js for the front end, MongoDB for the database, and Express with Node.js for the backend, PassOp ensures a seamless user experience and reliable data management. It offers users a centralized and secure solution to manage their credentials, enhancing both security and convenience.",
+    webUrl: "https://passop-frontend.onrender.com/",
+    gitHubCode: "https://github.com/MaheshKumarhub/passOpMongo",
+  },
+  {
+    title: "Elite",
+    id: 3,
+    image: gym,
+    techStack: ["Express", "React", "Node" ],
+    brand: CgGym,
+    overView:
+      "This single-page gym website features a contact form enabling users to send messages, managed via SMTP to reach Gmail promptly. Developed using React for the frontend and Express with Node.js for the backend, it utilizes Nodemailer for SMTP operations. Additionally, the site incorporates a BMI calculator, enhancing user engagement with health-related calculations and providing a comprehensive interactive experience.",
+    webUrl: "https://fitness-1-hkxi.onrender.com/",
+    gitHubCode: "https://github.com/MaheshKumarhub/Fitness",
+  },
+  {
+    title: "VIDTUBE",
+    id: 4,
     image: vidtube,
     techStack: ["React", "Tailwind CSS", "Vercel"],
     brand: AiFillYoutube,
@@ -36,7 +59,7 @@ export const projects = [
   },
   {
     title: "NIKE",
-    id: 3,
+    id: 5,
     image: nike,
     techStack: ["React", "Tailwind CSS", "Vercel" ],
     brand: GiRunningShoe,
@@ -46,26 +69,5 @@ export const projects = [
     gitHubCode: "https://github.com/MaheshKumarhub/NIkee",
   },
 
-  {
-    title: "NOSTRA",
-    id: 4,
-    image: nostra,
-    techStack: ["HTML", "CSS", "JavaScript"],
-    brand: GiLargeDress,
-    overView:
-      "Developed 'Nostra,' an e-commerce website, utilizing HTML, CSS, and JavaScript. Seamlessly integrated essential features including home, collection, and contact pages, enriched with intuitive navigation. Implemented a dynamic search bar functionality to enhance user experience and accessibility.",
-    webUrl: "https://maheshkumarhub.github.io/E-Commers-Website/",
-    gitHubCode: "https://github.com/MaheshKumarhub/E-Commers-Website",
-  },
-  {
-    title: "TO-DO LIST",
-    id: 5,
-    image: todo,
-    techStack: ["HTML", "CSS", "JavaScript"],
-    brand: RiTodoFill,
-    overView:
-      "This is my first project using HTML and CSS to display the to-do list.Use JavaScript to add dynamic functionality to the to-do list. Allow users to add, edit, and remove tasks in real-time without the need for page reloads.Implement local storage in JavaScript to store users' to-do list data.",
-    webUrl: "https://maheshkumarhub.github.io/To-Do-list/To-Do.html",
-    gitHubCode: "https://github.com/MaheshKumarhub/To-Do-list",
-  },
+  
 ];

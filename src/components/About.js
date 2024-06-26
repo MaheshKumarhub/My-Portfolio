@@ -31,10 +31,10 @@ const About = () => {
         <div className="max-w-lg text-center lg:text-justify">
           <h2 className="text-blue-600 font-bold  text-lg">ABOUT ME</h2>
           <h1 className="font-bold text-xl   my-5">
-            A dedicated Front-end Developer based in Tamilnadu, India 📍
+            A dedicated MERN Stack Developer based in Tamilnadu, India 📍
           </h1>
           <p className="text-gray-500 text-lg">
-          I'm Mahesh, a graduate proficient in HTML, CSS, JavaScript, React, SQL, and Tailwind CSS. I excel in crafting dynamic and visually appealing user interfaces, leveraging React's component-based architecture. My experience with SQL enables efficient data management, while Tailwind CSS ensures streamlined styling workflows. Eager to apply my skills in a professional setting, I'm enthusiastic about contributing to front-end projects and continuously learning and growing as a developer.
+          I'm Mahesh, a graduate proficient in HTML, CSS, JavaScript, React, Firebase and Tailwind CSS. I excel in crafting dynamic and visually appealing user interfaces, leveraging React's component-based architecture. Recently, I expanded my expertise by mastering the MERN stack—MongoDB, Express.js, React, and Node.js allowing me to build comprehensive web applications from front-end to back-end. My experience with SQL and MongoDB ensures efficient data management, while Tailwind CSS streamlines styling workflows. Eager to apply my skills in a professional setting, I'm enthusiastic about contributing to projects and continuously learning and growing as a developer.
           </p>
         </div>
       </div>
